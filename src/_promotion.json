@@ -1,4 +1,4 @@
 {
-  "promotion_name": "Default promotion",
-  "promotion_type": "release"
+  "promotion_title": "Test",
+  "promotion_type": "gig"
 }
