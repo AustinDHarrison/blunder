@@ -70,10 +70,10 @@ content:
       - name: promotion_name
         label: Promotion Name
         type: text
+        required: true
         options:
           rows: 1
           autoresize: true
-        required: true
       - name: promotion_type
         label: Promotion Type
         type: select
