@@ -12,6 +12,8 @@ content:
       - name: title
         label: Title
         type: text
+        options:
+          autoresize: true
         required: true
         
       - name: body
@@ -27,3 +29,31 @@ content:
         label: Release Date
         type: date
 
+  - name: gigs
+    label: Gigs
+    path: src/_gigs
+    format: json
+    type: collection
+    fields:
+      - name: gig_uuid
+        label: UUID
+        type: uuid
+        options:
+          editable: false
+      
+      - name: gig_name
+        label: Gig Name
+        type: text
+        options:
+          autoresize: true
+        required: true
+
+      - name: gig_images
+        label: Gig Images
+        type: image
+        options:
+          multiple: true
+        required: false
+
+        
+    
