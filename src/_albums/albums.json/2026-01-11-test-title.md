@@ -1,0 +1,6 @@
+---
+title: Test Title
+cover_image: /media/474536937_2446254052394382_865325607006249824_n.jpg
+release_date: 2026-01-12
+---
+Test Body
