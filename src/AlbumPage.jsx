@@ -1,29 +1,28 @@
-import fs from 'fs';
-import path from 'path';
+export default function AlbumsPage() {
+    // Import all .md files from _albums directory at build time
+    const albumFiles = import.meta.glob(`/src/_albums/*.md`, { eager: true, query: '?raw', import: 'default' });
+    
+    console.log('Album files found:', Object.keys(albumFiles));
+    
+    // Extract and parse JSON from .md files
+    const albums = Object.entries(albumFiles).map(([path, content]) => {
+        try {
+            return content | null;
+        } catch (e) {
+            console.error(`Error parsing ${path}:`, e);
+            return null;
+        }
+    }).filter(Boolean);
 
-export async function getStaticProps() {
-    const albumsDir = path.join(process.cwd(), 'src/_albums'); // local folder
-    const files = fs.readdirSync(albumsDir);
-
-    const albums = files.map(file => {
-        const content = fs.readFileSync(path.join(albumsDir, file), 'utf-8');
-        return JSON.parse(content);
-    });
-
-    return { props: { albums } };
-}
-``
-export default function AlbumsPage({ albums }) {
     return (
-        <div>
-            {albums.map((album, i) => (
-                <div key={i}>
-                    <h2>{album.title}</h2>
-                    <img src={album.cover_image} alt={album.title} />
-                    <p>{album.body}</p>
-                    <p>Released: {album.release_date}</p>
-                </div>
-            ))}
-        </div>
-    );
+        <>
+            <ul>
+                {albums.length > 0 ? (
+                    albums.map(album => <li key={album.title}>{album.title}</li>)
+                ) : (
+                    <li>No album files found</li>
+                )}
+            </ul>
+        </>
+    )
 }
