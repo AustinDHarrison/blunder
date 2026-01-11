@@ -63,7 +63,7 @@ content:
 
   - name: promotion
     label: Promotion
-    path: src/_promotion
+    path: src/_promotion.json
     type: file
     format: json
     fields:
