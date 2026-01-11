@@ -5,7 +5,7 @@ media:
 content:
   - name: albums
     label: Albums
-    path: src/_albums
+    path: src/_albums/albums.json
     type: collection
     fields:
       - name: title
