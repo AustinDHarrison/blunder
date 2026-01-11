@@ -48,6 +48,7 @@ content:
         label: Gig Name
         type: text
         options:
+          rows: 1
           autoresize: true
         required: true
 
