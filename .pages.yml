@@ -6,12 +6,14 @@ settings:
   hide: true
 
 content:
-  - name: albums
-    label: Albums
-    path: src/_albums
+  - name: releases
+    label: Releases
+    path: src/_releases
     format: json
     type: collection
     fields:
+# option for album or single
+    
       - name: title
         label: Title
         type: text
@@ -58,6 +60,33 @@ content:
         options:
           multiple: true
         required: false
+
+  - name: promotion
+    label: Promotion
+    path: src/_promotion
+    type: file
+    format: json
+    fields:
+      - name: promotion_name
+        label: Promotion Name
+        type: text
+        options:
+          rows: 1
+          autoresize: true
+        required: true
+      - name: promotion_type
+        label: Promotion Type
+        type: select
+        description: Allows you to specify why type of promotion it is.
+        options:
+          values:
+            - value: release
+              label: Release
+            - value: gig
+              label: Gig
+
+# Condition based feilds
+  
 
         
     
