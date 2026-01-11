@@ -9,7 +9,7 @@ content:
   - name: albums
     label: Albums
     path: src/_albums
-    format: json
+    format: json-frontmatter
     type: collection
     fields:
       - name: title
