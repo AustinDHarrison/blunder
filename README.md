@@ -1,18 +1,34 @@
-# React + Vite
+# Blunder Band - Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Initial Architecture
 
-Currently, two official plugins are available:
+| Component             | Type                        | Pricing         |
+|-----------------------|-----------------------------|-----------------|
+| Astro                 | Frontend                    | Free            |
+| React                 | Frontend                    | Free            |
+| Decap CMS             | Content Management System   | Free            |
+| Shopify?              | Backend                     | Monthly Plan    |
+| GitHub/Cloudflare     | Deployment                  | Free/Plan       |
+| Cloudflare            | Domain                      | Yearly (£7-20)  |
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+## Domain
+The domain is the first thing a user will interact with. After looking, the best one I can find is "blunder.band" for (£18.05) a year.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
 
-Note: This will impact Vite dev & build performances.
+## Features
 
-## Expanding the ESLint configuration
+### Landing Page
+The landing page introduces the visitor to the website and, in turn, your band. This should be the most interactive and visually pleasing page on the site. I'll make some initial ideas and append them to this document.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Merch Page
+Merch is going to be the most difficult feature to implement into the store, due to the options we could use for the selling part. Shopify seems to be the best route to go, but is more expensive (£25 a month). For now, I think there should be a focus on the other features, then we can implement the merch page later. There are other providers, but I will have to do more research.
+
+### Albums/Singles Page
+There will be a page dedicated to showcasing Blunder's discography, with individual links to each of the songs (if applicable), when you start to publish your music on streaming platforms.
+
+### Links to Socials and Streaming Platforms
+Easily customisable.
+
+### Content Management System
+I will be creating the website around the premise that you will be able to add different content without my help, such as a new release. I'll give a demonstration of what to do when it's done.
