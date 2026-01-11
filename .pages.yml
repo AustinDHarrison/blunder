@@ -1,0 +1,29 @@
+media:
+  input: public/media
+  output: /media
+
+content:
+  - name: albums
+    label: Albums
+    path: src/_albums
+    format: json
+    type: collection
+    fields:
+      - name: title
+        label: Title
+        type: text
+        required: true
+        
+      - name: body
+        label: Body
+        type: text
+
+      - name: cover_image
+        label: Cover Image
+        type: image
+        required: true
+
+      - name: release_date
+        label: Release Date
+        type: date
+
