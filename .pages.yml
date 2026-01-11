@@ -2,9 +2,6 @@ media:
   input: public/media
   output: /media
 
-settings:
-  hide: true
-
 content:
   - name: releases
     label: Releases
