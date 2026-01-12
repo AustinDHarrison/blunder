@@ -38,11 +38,6 @@ content:
     format: json
     type: collection
     fields:
-      - name: gig_uuid
-        label: UUID
-        type: uuid
-        options:
-          editable: false
           
       - name: gig_name
         label: Gig Name
