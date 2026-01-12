@@ -42,6 +42,9 @@ content:
       - name: cover_image
         label: Cover Image
         type: image
+        options:
+          input: _releases
+          extentions: ["jpg", "jpeg", "apng", "png", "gif", "svg", "ico", "avif", "bmp", "tif", "tiff", "webp"]
         required: true
 
       - name: release_date
@@ -70,6 +73,7 @@ content:
         options:
           multiple: true
           input: _gigs
+          extentions: ["jpg", "jpeg", "apng", "png", "gif", "svg", "ico", "avif", "bmp", "tif", "tiff", "webp"]
         required: false
 
   - name: promotion
@@ -101,6 +105,8 @@ content:
         type: image
         options:
           multiple: false
+          extentions: ["jpg", "jpeg", "apng", "png", "gif", "svg", "ico", "avif", "bmp", "tif", "tiff", "webp"]
+          
       - name: promotion_body
         label: Promotion Body
         type: text
@@ -138,6 +144,7 @@ content:
         options:
           input: _members
           multiple: false
+          extentions: ["jpg", "jpeg", "apng", "png", "gif", "svg", "ico", "avif", "bmp", "tif", "tiff", "webp"]
 
       
         
