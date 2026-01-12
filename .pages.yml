@@ -115,6 +115,7 @@ content:
     path: src/_members
     type: collection
     icon: Users
+    editorNotes: "All values provided will be pushed to the website, make sure they're formatted and spelt right!"
     format: json
     fields:
       - name: member_name
