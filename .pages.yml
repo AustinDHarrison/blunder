@@ -125,13 +125,18 @@ content:
           rows: 1
           autoresize: true
         required: true
-        
       - name: member_role
         label: Member Role
         type: text
         options:
           rows: 1
           autoresize: true
+      - name: member_image
+        label: Member Image
+        type: image
+        options:
+          input: public/media/_members
+          multiple: false
 
       
         
