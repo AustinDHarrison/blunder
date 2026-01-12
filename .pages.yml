@@ -17,7 +17,6 @@ content:
       - name: title
         label: Title
         type: text
-        icon: Disc3
         options:
           rows: 1
           autoresize: true
