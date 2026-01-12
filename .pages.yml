@@ -22,7 +22,7 @@ content:
           rows: 1
           autoresize: true
         required: true
-      - name: release_tyoe
+      - name: release_type
         label: Release Type
         type: select
         description: Allows you to specify why type of promotion it is.
@@ -69,6 +69,7 @@ content:
         type: image
         options:
           multiple: true
+          input: _gigs
         required: false
 
   - name: promotion
@@ -135,7 +136,7 @@ content:
         label: Member Image
         type: image
         options:
-          input: public/media/_members
+          input: _members
           multiple: false
 
       
