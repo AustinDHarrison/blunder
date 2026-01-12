@@ -110,6 +110,11 @@ content:
         description: When the promtion ends, will end at 12:01am on the date provided.
         type: date
         required: true
+  - name: members
+    label: Members
+    path: src/_members
+    type: collection
+    icon: Users
         
 
 # Condition based feilds
