@@ -39,6 +39,7 @@ content:
   - name: gigs
     label: Gigs
     path: src/_gigs
+    icon: Guitar
     format: json
     type: collection
     fields:
