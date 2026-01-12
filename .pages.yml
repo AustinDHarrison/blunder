@@ -22,7 +22,19 @@ content:
           rows: 1
           autoresize: true
         required: true
-        
+      - name: release_tyoe
+        label: Release Type
+        type: select
+        description: Allows you to specify why type of promotion it is.
+        options:
+          values:
+            - value: album
+              label: Album
+            - value: single
+              label: Single
+            - value: ep
+              label: EP
+
       - name: body
         label: Body
         type: text
