@@ -9,6 +9,7 @@ content:
   - name: releases
     label: Releases
     path: src/_releases
+    icon: Disk3
     format: json
     type: collection
     fields:
