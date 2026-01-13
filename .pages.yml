@@ -10,6 +10,7 @@ content:
     label: Releases
     path: src/_releases
     icon: Disc3
+    filename: "{year}-{month}-{day}-{primary}.json"
     format: json
     type: collection
     fields:
@@ -56,6 +57,7 @@ content:
     path: src/_gigs
     icon: Guitar
     format: json
+    filename: "{year}-{month}-{day}-{primary}.json"
     type: collection
     fields:
           
@@ -124,6 +126,7 @@ content:
     icon: Users
     editorNotes: "All values provided will be pushed to the website, make sure they're formatted and spelt right!"
     format: json
+    filename: "{year}-{month}-{day}-{primary}.json"
     fields:
       - name: member_name
         label: Member Name
