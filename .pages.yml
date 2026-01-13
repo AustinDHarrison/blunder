@@ -3,7 +3,7 @@ media:
   output: /media
 
 settings:
-  hide: true
+  hide: false
 
 content:
   - name: gigs
