@@ -100,18 +100,18 @@ content:
         options:
           rows: 1
         required: true
-      - name: promotion_image
-        label: Promotion Image
-        type: image
-        options:
-          multiple: false
-          extentions: ["jpg", "jpeg", "apng", "png", "gif", "svg", "ico", "avif", "bmp", "tif", "tiff", "webp"]
           
       - name: promotion_body
         label: Promotion Body
         type: text
         options:
           autoresize: true
+      - name: promotion_image
+        label: Promotion Image
+        type: image
+        options:
+          multiple: false
+          extentions: ["jpg", "jpeg", "apng", "png", "gif", "svg", "ico", "avif", "bmp", "tif", "tiff", "webp"]
       - name: promotion_end
         label: Promotion End
         description: When the promtion ends, will end at 12:01am on the date provided.
