@@ -151,7 +151,14 @@ content:
     path: src/_socials
     type: collection
     icon: MessageCircle
-
+    format: json
+    filename: "{primary}.json"
+    fields:
+      - name: social_name
+        label: Social Name
+        required: true
+        type: string
+        
       
         
 
