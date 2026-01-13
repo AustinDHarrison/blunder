@@ -138,6 +138,12 @@ content:
         options:
           rows: 1
           autoresize: true
+      - name: member_blurb
+        label: Member Blurb
+        type: text
+        options:
+          rows: 1
+          autoresize: true
       - name: member_image
         label: Member Image
         type: image
