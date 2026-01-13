@@ -99,11 +99,16 @@ content:
               label: Gig
       - name: promotion_title
         label: Promotion Title
-        type: rich-text
-        # options:
-        #   rows: 1
+        type: text
+        options:
+          rows: 1
         required: true
-          
+      - name: content
+        label: Content
+        type: rich-text
+        options:
+          path: blog-images
+          extensions: [jpg, jpeg, png]
       - name: promotion_body
         label: Promotion Body
         type: text
