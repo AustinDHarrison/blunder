@@ -16,10 +16,7 @@ content:
     fields:
       - name: gig_name
         label: Gig Name
-        type: text
-        options:
-          rows: 1
-          autoresize: true
+        type: string
         required: true
       - name: gig_images
         label: Gig Images
@@ -39,10 +36,7 @@ content:
     fields:
       - name: title
         label: Title
-        type: text
-        options:
-          rows: 1
-          autoresize: true
+        type: string
         required: true
       - name: release_type
         label: Release Type
@@ -91,9 +85,7 @@ content:
               label: Gig
       - name: promotion_title
         label: Promotion Title
-        type: text
-        options:
-          rows: 1
+        type: string
         required: true
       - name: promotion_body
         label: Promotion Body
@@ -122,10 +114,7 @@ content:
     fields:
       - name: member_name
         label: Member Name
-        type: text
-        options:
-          rows: 1
-          autoresize: true
+        type: string
         required: true
       - name: member_role
         label: Member Role
@@ -156,8 +145,10 @@ content:
     fields:
       - name: social_name
         label: Social Name
-        required: true
         type: string
+        required: true
+
+      - name: social_url
         
       
         
