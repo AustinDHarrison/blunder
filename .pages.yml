@@ -103,12 +103,6 @@ content:
         options:
           rows: 1
         required: true
-      - name: content
-        label: Content
-        type: rich-text
-        options:
-          path: blog-images
-          extensions: [jpg, jpeg, png]
       - name: promotion_body
         label: Promotion Body
         type: text
