@@ -99,9 +99,9 @@ content:
               label: Gig
       - name: promotion_title
         label: Promotion Title
-        type: text
-        options:
-          rows: 1
+        type: rich-text
+        # options:
+        #   rows: 1
         required: true
           
       - name: promotion_body
