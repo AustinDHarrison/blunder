@@ -14,8 +14,6 @@ content:
     format: json
     type: collection
     fields:
-# option for album or single
-    
       - name: title
         label: Title
         type: text
@@ -56,12 +54,10 @@ content:
     label: Gigs
     path: src/_gigs
     icon: Guitar
-    
     format: json
     filename: "{year}-{month}-{day}-{primary}.json"
     type: collection
     fields:
-          
       - name: gig_name
         label: Gig Name
         type: text
@@ -69,7 +65,6 @@ content:
           rows: 1
           autoresize: true
         required: true
-
       - name: gig_images
         label: Gig Images
         type: image
@@ -78,7 +73,6 @@ content:
           input: _gigs/{gig_name}
           extentions: ["jpg", "jpeg", "apng", "png", "gif", "svg", "ico", "avif", "bmp", "tif", "tiff", "webp"]
         required: false
-
   - name: promotion
     label: Promotion
     path: src/_promotion.json
@@ -86,7 +80,6 @@ content:
     icon: Smartphone
     format: json
     fields:
-      
       - name: promotion_type
         label: Promotion Type
         type: select
@@ -154,6 +147,11 @@ content:
           input: _members
           multiple: false
           extentions: ["jpg", "jpeg", "apng", "png", "gif", "svg", "ico", "avif", "bmp", "tif", "tiff", "webp"]
+  - name: socials
+    label: Socials
+    path: src/_socials
+    type: collection
+    icon: 
 
       
         
