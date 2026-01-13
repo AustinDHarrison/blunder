@@ -74,7 +74,7 @@ content:
         type: image
         options:
           multiple: true
-          input: _gigs
+          input: _gigs/{gig_name}
           extentions: ["jpg", "jpeg", "apng", "png", "gif", "svg", "ico", "avif", "bmp", "tif", "tiff", "webp"]
         required: false
 
