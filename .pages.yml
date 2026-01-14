@@ -89,7 +89,7 @@ content:
         required: true
       - name: promotion_body
         label: Promotion Body
-        type: text
+        type: rich-text
         options:
           autoresize: true
       - name: promotion_image
