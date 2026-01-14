@@ -103,6 +103,11 @@ content:
         description: When the promtion ends, will end at 12:01am on the date provided.
         type: date
         required: true
+      - name: promotion_active
+        label: Promotion Active
+        type: boolean
+        default: true
+        description: Overwritten by promotion end date.
   - name: members
     label: Band Members
     path: src/_content/_members
