@@ -145,7 +145,7 @@ content:
     fields:
       - name: social_name
         label: Social Name
-        type: icon
+        type: string
         required: true
 
       - name: social_url
