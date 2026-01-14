@@ -148,7 +148,10 @@ content:
         type: string
         required: true
 
-      - name: social_url
+      - name: social_icon
+        label: Social Icon
+        type: icon
+        required: true
         
       
         
