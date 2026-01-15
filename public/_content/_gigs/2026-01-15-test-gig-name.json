@@ -1,10 +1,9 @@
 {
-  "gig_name": "Test Gig Name",
-  "gig_body": "Gig Body Test",
-  "gig_date": "2026-01-16",
-  "gig_images": [
+  "title": "asdasd",
+  "body": "asdasdasd",
+  "date": "2001-12-12",
+  "images": [
     "/media/development/placeholder_1.jpg",
-    "/media/development/placeholder_2.jpg",
-    "/media/development/placeholder_3.jpg"
+    "/media/development/placeholder_2.jpg"
   ]
 }
