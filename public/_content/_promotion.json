@@ -1,8 +1,8 @@
 {
-  "promotion_title": "Promotion Title Field Fill",
+  "title": "Promotion Title",
   "promotion_type": "release",
-  "promotion_body": "**Promotion** _Body_ ~Field~ Fill",
-  "promotion_image": "/media/blunder-logo.png",
+  "body": "Test",
+  "image": "/media/blunder-logo.png",
   "promotion_end": "2037-12-25",
   "promotion_active": false
 }
