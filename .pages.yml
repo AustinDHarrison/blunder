@@ -14,24 +14,24 @@ content:
     filename: "{year}-{month}-{day}-{primary}.json"
     type: collection
     fields:
-      - name: gig_name
-        label: Gig Name
+      - name: title
+        label: Gig Title
         type: string
         required: true
-      - name: gig_body
+      - name: body
         label: Gig Body
         type: rich-text
         description: A breif summary of the event!
-      - name: gig_date
+      - name: date
         label: Gig Date
         type: date
         required: true
-      - name: gig_images
+      - name: images
         label: Gig Images
         type: image
         options:
           multiple: true
-          input: _gigs/{gig_name}
+          input: _gigs/{title}
           extentions: ["jpg", "jpeg", "apng", "png", "gif", "svg", "ico", "avif", "bmp", "tif", "tiff", "webp"]
         required: false
   - name: releases
@@ -42,7 +42,7 @@ content:
     format: json
     type: collection
     fields:
-      - name: release_title
+      - name: title
         label: Release Title
         type: string
         required: true
@@ -60,7 +60,7 @@ content:
       #       - value: ep
       #         label: EP
 
-      - name: release_body
+      - name: body
         label: Release Body
         type: rich-text
         description: Talk about your release, the people want to hear!
@@ -74,7 +74,7 @@ content:
           extentions: ["jpg", "jpeg", "apng", "png", "gif", "svg", "ico", "avif", "bmp", "tif", "tiff", "webp"]
         required: true
 
-      - name: release_date
+      - name: date
         label: Release Date
         type: date
   - name: promotion
@@ -84,7 +84,7 @@ content:
     icon: Smartphone
     format: json
     fields:
-      - name: promotion_title
+      - name: title
         label: Promotion Title
         type: string
         required: true
@@ -98,12 +98,12 @@ content:
               label: Release
             - value: gig
               label: Gig
-      - name: promotion_body
+      - name: body
         label: Promotion Body
         type: rich-text
         options:
           autoresize: true
-      - name: promotion_image
+      - name: image
         label: Promotion Image
         type: image
         options:
@@ -128,20 +128,20 @@ content:
     format: json
     filename: "{year}-{month}-{day}-{primary}.json"
     fields:
-      - name: member_name
+      - name: name
         label: Member Name
         type: string
         required: true
-      - name: member_role
+      - name: role
         label: Member Role
         type: string
-      - name: member_blurb
+      - name: body
         label: Member Blurb
         type: text
         options:
           rows: 1
           autoresize: true
-      - name: member_image
+      - name: image
         label: Member Image
         type: image
         options:
@@ -156,12 +156,12 @@ content:
     format: json
     filename: "{primary}.json"
     fields:
-      - name: social_name
+      - name: title
         label: Social Name
         type: string
         required: true
 
-      - name: social_icon
+      - name: icon
         label: Social Icon
         type: icon
         required: true
