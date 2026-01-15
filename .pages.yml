@@ -42,11 +42,15 @@ content:
     format: json
     type: collection
     fields:
-      - name: title
-        label: Title
+      - name: release_title
+        label: Release Title
         type: string
         required: true
 
+      - name: release_body
+        label: Release Body
+        type: rich-text
+        description: Talk about your release, the people want to hear!
         
       - name: release_type
         label: Release Type
@@ -83,6 +87,10 @@ content:
     icon: Smartphone
     format: json
     fields:
+      - name: promotion_title
+        label: Promotion Title
+        type: string
+        required: true
       - name: promotion_type
         label: Promotion Type
         type: select
@@ -93,10 +101,6 @@ content:
               label: Release
             - value: gig
               label: Gig
-      - name: promotion_title
-        label: Promotion Title
-        type: string
-        required: true
       - name: promotion_body
         label: Promotion Body
         type: rich-text
