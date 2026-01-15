@@ -46,11 +46,6 @@ content:
         label: Release Title
         type: string
         required: true
-
-      - name: release_body
-        label: Release Body
-        type: rich-text
-        description: Talk about your release, the people want to hear!
         
       - name: release_type
         label: Release Type
@@ -65,9 +60,11 @@ content:
             - value: ep
               label: EP
 
-      - name: body
-        label: Body
-        type: text
+      - name: release_body
+        label: Release Body
+        type: rich-text
+        description: Talk about your release, the people want to hear!
+        
 
       - name: cover_image
         label: Cover Image
