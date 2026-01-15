@@ -21,6 +21,10 @@ content:
       - name: gig_body
         label: gig_body
         type: rich-text
+      - name: gig_date
+        label: Gig Date
+        type: date
+        required: true
       - name: gig_images
         label: Gig Images
         type: image
