@@ -8,7 +8,7 @@ settings:
 content:
   - name: gigs
     label: Gigs
-    path: src/_content/_gigs
+    path: public/_content/_gigs
     icon: Guitar
     format: json
     filename: "{year}-{month}-{day}-{primary}.json"
@@ -36,7 +36,7 @@ content:
         required: false
   - name: releases
     label: Releases
-    path: src/_content/_releases
+    path: public/_content/_releases
     icon: Disc3
     filename: "{year}-{month}-{day}-{primary}.json"
     format: json
@@ -79,7 +79,7 @@ content:
         type: date
   - name: promotion
     label: Promotion
-    path: src/_content/_promotion.json
+    path: public/_content/_promotion.json
     type: file
     icon: Smartphone
     format: json
@@ -121,7 +121,7 @@ content:
         description: Overwritten by promotion end date.
   - name: members
     label: Band Members
-    path: src/_content/_members
+    path: public/_content/_members
     type: collection
     icon: Users
     editorNotes: "All values provided will be pushed to the website, make sure they're formatted and spelt right!"
@@ -150,7 +150,7 @@ content:
           extentions: ["jpg", "jpeg", "apng", "png", "gif", "svg", "ico", "avif", "bmp", "tif", "tiff", "webp"]
   - name: socials
     label: Socials
-    path: src/_content/_socials
+    path: public/_content/_socials
     type: collection
     icon: MessageCircle
     format: json
