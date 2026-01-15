@@ -18,6 +18,9 @@ content:
         label: Gig Name
         type: string
         required: true
+      - name: gig_body
+        label: gig_body
+        type: rich-text
       - name: gig_images
         label: Gig Images
         type: image
