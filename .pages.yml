@@ -19,8 +19,9 @@ content:
         type: string
         required: true
       - name: gig_body
-        label: gig_body
+        label: Gig Body
         type: rich-text
+        description: A breif summary of the event!
       - name: gig_date
         label: Gig Date
         type: date
