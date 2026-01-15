@@ -46,6 +46,8 @@ content:
         label: Title
         type: string
         required: true
+
+        
       - name: release_type
         label: Release Type
         type: select
