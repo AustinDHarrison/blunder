@@ -1,5 +1,6 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+import loadContent from './lib/content/loadContent.cjs'
 
 // https://vite.dev/config/
 export default defineConfig({
@@ -14,4 +15,8 @@ export default defineConfig({
       },
     }),
   ],
+  define: {
+    __POSTS__: JSON.stringify(loadContent("posts")),
+    __PAGES__: JSON.stringify(loadContent("pages")),
+  },
 })
