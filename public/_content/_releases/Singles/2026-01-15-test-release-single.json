@@ -1,6 +1,4 @@
 {
-  "release_title": "Release Test (Single)",
-  "release_type": "single",
-  "cover_image": "/media/development/placeholder_3.jpg",
-  "release_date": "2026-01-15"
+  "title": "Single Title",
+  "cover_image": "/media/development/placeholder_3.jpg"
 }
