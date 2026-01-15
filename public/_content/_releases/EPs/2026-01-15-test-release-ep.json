@@ -1,6 +1,4 @@
 {
-  "release_title": "Release Test (EP)",
-  "release_type": "ep",
-  "cover_image": "/media/development/placeholder_2.jpg",
-  "release_date": "2026-01-15"
+  "title": "EP Title",
+  "cover_image": "/media/development/placeholder_2.jpg"
 }
