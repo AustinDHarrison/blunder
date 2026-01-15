@@ -137,10 +137,7 @@ content:
         required: true
       - name: member_role
         label: Member Role
-        type: text
-        options:
-          rows: 1
-          autoresize: true
+        type: string
       - name: member_blurb
         label: Member Blurb
         type: text
