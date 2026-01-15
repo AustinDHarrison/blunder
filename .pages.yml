@@ -47,18 +47,18 @@ content:
         type: string
         required: true
         
-      - name: release_type
-        label: Release Type
-        type: select
-        description: Allows you to specify why type of promotion it is.
-        options:
-          values:
-            - value: album
-              label: Album
-            - value: single
-              label: Single
-            - value: ep
-              label: EP
+      # - name: release_type
+      #   label: Release Type
+      #   type: select
+      #   description: Allows you to specify why type of promotion it is.
+      #   options:
+      #     values:
+      #       - value: album
+      #         label: Album
+      #       - value: single
+      #         label: Single
+      #       - value: ep
+      #         label: EP
 
       - name: release_body
         label: Release Body
