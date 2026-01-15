@@ -1,6 +1,4 @@
 {
-  "release_title": "Release Test (Album)",
-  "release_type": "album",
-  "cover_image": "/media/development/placeholder_1.jpg",
-  "release_date": "2026-01-15"
+  "title": "Album Title",
+  "cover_image": "/media/development/placeholder_1.jpg"
 }
