@@ -2,6 +2,6 @@
   "title": "Test Release (Album)",
   "release_type": "album",
   "body": "Test Release Body",
-  "cover_image": "/media/_releases/placeholder_3.jpg",
+  "cover_image": "/media/development/placeholder_1.jpg",
   "release_date": "2026-01-15"
 }
