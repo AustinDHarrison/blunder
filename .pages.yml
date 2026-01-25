@@ -4,6 +4,7 @@ media:
 
 settings:
   hide: false
+  foldernamesconverted: true
 
 content:
   - name: gigs
