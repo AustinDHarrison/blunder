@@ -173,10 +173,13 @@ content:
     icon: Cog
     format: json
     fields:
-      - name: title
-        label: Promotion Title
-        type: string
-        required: true
+      - name: navbar_logo
+        label: Navigation Bar Logo
+        type: image
+        options:
+          input: _site
+          multiple: false
+          extentions: ["jpg", "jpeg", "apng", "png", "gif", "svg", "ico", "avif", "bmp", "tif", "tiff", "webp"]
         
         
 
