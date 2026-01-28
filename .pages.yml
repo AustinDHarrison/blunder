@@ -166,8 +166,18 @@ content:
         label: Social Icon
         type: icon
         required: true
+  - name: site_settings
+    label: Site Settings
+    path: public/_content/_siteSettings.json
+    type: file
+    icon: Cog
+    format: json
+    fields:
+      - name: title
+        label: Promotion Title
+        type: string
+        required: true
         
-      
         
 
 # Condition based feilds
