@@ -180,7 +180,14 @@ content:
           input: _site
           multiple: false
           extentions: ["jpg", "jpeg", "apng", "png", "gif", "svg", "ico", "avif", "bmp", "tif", "tiff", "webp"]
-        
+
+      - name: development_1
+        label: Development Image 1
+        type: image
+        options:
+          input: _site
+          multiple: false
+          extentions: ["jpg", "jpeg", "apng", "png", "gif", "svg", "ico", "avif", "bmp", "tif", "tiff", "webp"]
         
 
 # Condition based feilds
