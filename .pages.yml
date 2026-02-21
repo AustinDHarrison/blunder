@@ -188,6 +188,27 @@ content:
           input: _site
           multiple: false
           extentions: ["jpg", "jpeg", "apng", "png", "gif", "svg", "ico", "avif", "bmp", "tif", "tiff", "webp"]
+      - name: development_2
+        label: Development Image 2
+        type: image
+        options:
+          input: _site
+          multiple: false
+          extentions: ["jpg", "jpeg", "apng", "png", "gif", "svg", "ico", "avif", "bmp", "tif", "tiff", "webp"]
+      - name: development_3
+        label: Development Image 3
+        type: image
+        options:
+          input: _site
+          multiple: false
+          extentions: ["jpg", "jpeg", "apng", "png", "gif", "svg", "ico", "avif", "bmp", "tif", "tiff", "webp"]
+      - name: development_4
+        label: Development Image 4
+        type: image
+        options:
+          input: _site
+          multiple: false
+          extentions: ["jpg", "jpeg", "apng", "png", "gif", "svg", "ico", "avif", "bmp", "tif", "tiff", "webp"]
         
 
 # Condition based feilds
